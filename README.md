@@ -39,7 +39,6 @@ python <script_name>.py
 \```
 
 ## Directory Structure
-
     .
     ├── floyd_algorithm/
     │   ├── __init__.py
@@ -47,9 +46,9 @@ python <script_name>.py
     │   └── recursion.py
     ├── performance_tests/
     │   ├── __init__.py
+    │   ├── perf_comparison.py
     │   ├── perf_iterative.py
-    │   ├── perf_recursion.py
-    │   └── perf_comparison.py
+    │   └── perf_recursion.py
     ├── unit_tests/
     │   ├── __init__.py
     │   ├── test_iterative.py
