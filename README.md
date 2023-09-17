@@ -39,23 +39,24 @@ python <script_name>.py
 \```
 
 ## Directory Structure
-.
-├── floyd_algorithm/
-│   ├── __init__.py
-│   ├── iterative.py
-│   └── recursion.py
-├── performance_tests/
-│   ├── __init__.py
-│   ├── perf_comparison.py
-│   ├── perf_iterative.py
-│   └── perf_recursion.py
-├── unit_tests/
-│   ├── __init__.py
-│   ├── test_iterative.py
-│   └── test_recursion.py
-├── LICENSE
-├── README.md
-└── requirements.txt
+
+    .
+    ├── floyd_algorithm/
+    │   ├── __init__.py
+    │   ├── iterative.py
+    │   └── recursion.py
+    ├── performance_tests/
+    │   ├── __init__.py
+    │   ├── perf_iterative.py
+    │   ├── perf_recursion.py
+    │   └── perf_comparison.py
+    ├── unit_tests/
+    │   ├── __init__.py
+    │   ├── test_iterative.py
+    │   └── test_recursion.py
+    ├── LICENSE
+    ├── README.md
+    └── requirements.txt
 
 ## Unit Tests
 
