@@ -33,11 +33,14 @@ There are main scripts associated with the Floyd Warshall algorithm in this proj
 - `iterative.py` - Contains the iterative implementation of the algorithm. (as referenced by University of Liverpool)
 - `recursion.py` - Contains the recursive implementation of the algorithm.
 
-To run any of the scripts, navigate to the main project directory and run:
-\```
-python -m floyd_algorithm.iterative
-python -m floyd_algorithm.iterative
-\```
+To run any of the scripts:
+
+    python -m floyd_algorithm.iterative
+
+    python -m floyd_algorithm.iterative
+
+**Note**: This will not print anything.  The graph is loaded in the unit tests with results printed there. 
+
 ## Directory Structure
     .
     ├── floyd_algorithm/
@@ -64,12 +67,13 @@ To ensure the accuracy and reliability of both the iterative and recursive imple
 - `test_iterative.py` - Contains unit tests for the iterative approach.
 - `test_recursion.py` - Contains unit tests for the recursive approach.
 
-To run the unit tests, navigate to the main project directory and run:
-\```
-python -m unit_tests.test_iterative
-python -m unit_tests.test_recursion
-\```
-Note: Result should say "OK"
+To run the unit tests:
+
+    python -m unit_tests.test_iterative
+
+    python -m unit_tests.test_recursion
+
+**Note**: Result should print the update graph and indicate "OK" for a successful test.
 
 ## Performance Testing
 
@@ -79,10 +83,10 @@ Each performance test script will provide metrics such as execution time, CPU pe
 - `perf_recursion.py` - Performance testing for the recursive approach as used by perf_comparison.py.
 - `perf_comparison.py` - Compares the performance of both methods.
 
-To run the performance test, navigate to the main project directory and run:
-\```
-python -m performance_tests.perf_comparison
-\```
+To run the performance comparison test:
+
+    python -m performance_tests.perf_comparison
+
 
 ## License
 
