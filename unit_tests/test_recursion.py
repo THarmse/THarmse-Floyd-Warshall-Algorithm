@@ -45,6 +45,13 @@ class TestRecursiveFloyd(unittest.TestCase):
         # Execute the algorithm.
         result = recursion.floyds_recursive_approach(graph)
 
+        # Display the result matrix.
+        print("\nResultant Matrix (Iterative):")
+        for row in result:
+            # Replace sys.maxsize with NO_PATH
+            print_row = [str(val) if val != NO_PATH else "NO_PATH" for val in row]
+            print("[" + ", ".join(print_row) + "]")
+
         # Confirm that the algorithm's output matches the expected matrix.
         self.assertEqual(result, expected)
 

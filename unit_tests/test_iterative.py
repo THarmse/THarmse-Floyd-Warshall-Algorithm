@@ -45,6 +45,13 @@ class TestIterativeFloyd(unittest.TestCase):
         # Run the algorithm.
         result = iterative.floyd(graph)
 
+        # Display the result matrix.
+        print("\nResultant Matrix (Iterative):")
+        for row in result:
+            # Replace sys.maxsize with NO_PATH
+            print_row = [str(val) if val != NO_PATH else "NO_PATH" for val in row]
+            print("[" + ", ".join(print_row) + "]")
+
         # Assert if the result matches the expected matrix.
         self.assertEqual(result, expected)
 

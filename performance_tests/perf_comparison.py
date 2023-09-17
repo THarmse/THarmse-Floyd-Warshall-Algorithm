@@ -1,5 +1,5 @@
-from perf_iterative import test_performance_iterative
-from perf_recursion import test_performance_recursion
+from performance_tests.perf_iterative import test_performance_iterative
+from performance_tests.perf_recursion import test_performance_recursion
 
 
 def main():
