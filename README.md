@@ -1,11 +1,12 @@
 # Floyd Warshall Algorithm - Recursive & Iterative Implementation
 
-This project contains Python implementations of the Floyd Warshall algorithm using both iterative and recursive methods. The goal is to determine the shortest paths between all pairs of vertices in a given weighted directed graph.
+This project contains Python implementations of the Floyd Warshall algorithm. It provides both iterative and recursive methods to determine the shortest paths between all pairs of vertices in a given weighted directed graph.
 
 ## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Directory Structure](#directory-structure)
 - [Unit Tests](#unit-tests)
 - [Performance Testing](#performance-testing)
 - [License](#license)
@@ -36,6 +37,25 @@ To run any of the scripts, use:
 \```
 python <script_name>.py
 \```
+
+## Directory Structure
+.
+├── floyd_algorithm/
+│   ├── __init__.py
+│   ├── iterative.py
+│   └── recursion.py
+├── performance_tests/
+│   ├── __init__.py
+│   ├── perf_comparison.py
+│   ├── perf_iterative.py
+│   └── perf_recursion.py
+├── unit_tests/
+│   ├── __init__.py
+│   ├── test_iterative.py
+│   └── test_recursion.py
+├── LICENSE
+├── README.md
+└── requirements.txt
 
 ## Unit Tests
 
